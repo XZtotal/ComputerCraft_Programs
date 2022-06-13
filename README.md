@@ -3,9 +3,9 @@ Este es un **pack de 5 programas** escritos en Lua para el mod de **Minecraft CC
 
 Los programas **cavar4.lua**, **escuchar.lua**, **lava2.lua** y **suelificar.lua** son para tortugas avanzadas (advenced turtles) equipadas con modem ( mejor avanzado de ender) y pico de diamante.
 
-El programa** gestion.lua** es para el ordenador de bolsillo avanzado de Ender (advanced ender pocket computer).
+El programa **gestion.lua** es para el ordenador de bolsillo avanzado de Ender (advanced ender pocket computer).
 
-Al usar estos programas, se podrá controlar las tortugas a distancia. Para ello es necesario que cada dispositivo tenga un puerto reservado. El puerto (or Channel) de cada dispositivo será igual a la suma de su **ID** y el valor de la variable **puertoInicial** (**Puerto = puertoInicial + os.getComputerID() **).
+Al usar estos programas, se podrá controlar las tortugas a distancia. Para ello es necesario que cada dispositivo tenga un puerto reservado. El puerto (or Channel) de cada dispositivo será igual a la suma de su **ID** y el valor de la variable **puertoInicial** ( **Puerto = puertoInicial + os.getComputerID()** ).
 
 Puedes cambiar el valor de la variable **puertoInicial** editando los archivos **.lua** . Esto es útil en servidores, para poder repartir rangos de puerto entre los integrantes. Ten en cuenta que el valor del puerto tiene que estar en el **rango [0 , 65535]** . Es muy importante que los programas tengan el mismo valor en puertoInicial, si no, no funcionara la conexión.
 
@@ -14,7 +14,7 @@ Puedes cambiar el valor de la variable **puertoInicial** editando los archivos *
 # A partir que aquí, explicare cada programa por separado:
 
 ## gestion.lua
-Este programa tiene interfaz gráfica y es muy útil, ya que permite ver el estado de las tortugas enlazadas (fuel, programa activo y estado) y nos permite finalizar y ejecutar los programas** Lava2.lua**, **cavar4.lua** y **suelificar2.lua** ¡Todo esto a distancia! 
+Este programa tiene interfaz gráfica y es muy útil, ya que permite ver el estado de las tortugas enlazadas (fuel, programa activo y estado) y nos permite finalizar y ejecutar los programas **Lava2.lua**, **cavar4.lua** y **suelificar2.lua** ¡Todo esto a distancia! 
 
 Para configurarlo es muy sencillo, simplemente abre el programa con el editor y, en la variable **enlaces**, escriba las ID de las tortugas a las que te quieres conectar.  Ej: {23,34,54,12}
 
