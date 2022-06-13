@@ -1,7 +1,7 @@
 # ComputerCraft_Programs
 Este es un **pack de 5 programas** escritos en Lua para el mod de **Minecraft CC: Tweaked.**
 
-Los programas** cavar4.lua**,** escuchar.lua**,** lava2.lua** y **suelificar.lua** son para tortugas avanzadas (advenced turtles) equipadas con modem ( mejor avanzado de ender) y pico de diamante.
+Los programas **cavar4.lua**, **escuchar.lua**, **lava2.lua** y **suelificar.lua** son para tortugas avanzadas (advenced turtles) equipadas con modem ( mejor avanzado de ender) y pico de diamante.
 
 El programa** gestion.lua** es para el ordenador de bolsillo avanzado de Ender (advanced ender pocket computer).
 
