@@ -39,7 +39,7 @@ Si la tortuga se queda sin fuel, y no le queda combustible en el inventario, aut
 
 También nombrar que todos los materiales que mine, los guardara en el inventario. Cuando su inventario este lleno, volverá a la posición inicial e intentará guarda los materiales en un cofre justo detrás de él. Si no ponemos un cofre, los ítems los tirara en ese sitio.
 
-##suelificar2.lua
+## suelificar2.lua
 Este programa nos permite usar tortugas para poner suelos de manera automática. Puedes iniciarlo directamente desde la consola o por conexión utilizando gestio.lua.
 
   Cuando lo ejecutemos, nos preguntara 2 cosas:
