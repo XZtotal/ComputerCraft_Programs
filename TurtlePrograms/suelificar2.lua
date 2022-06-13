@@ -1,4 +1,6 @@
 local largo, ancho, alto = ...
+local puertoInicial = 23000 -- Numero desde el cual se empieza a repartir los puertos
+local puerto= os.getComputerID() + puertoInicial -- El puerto de esta tortuga sera igual a su Id + puertoInicial (ej: si su Id es 3 y puertoInicial es 30, entonces su puerto sera 33)
 local x=0
 local y=0
 local z=0
@@ -17,7 +19,7 @@ local capasAcabadas = 0 --capas "y" ya cavadas
 local modoDeCavado = 0 --0 = bloques de enfrente, 1 = enfrente y arriba, 2=arriba abajo y enfrente, -1 = enfrente y abajo, -2=arriba abajo y enfrente
 local puedeConstruir = true
 local estado="undefined"
-local puerto= os.getComputerID()+23000
+
 local modem = peripheral.find("modem")
 local modoDeFuncionamiento = 0
 

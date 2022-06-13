@@ -1,4 +1,6 @@
 local largo, ancho,alto = ...
+local puertoInicial = 23000 -- Numero desde el cual se empieza a repartir los puertos
+local puerto= os.getComputerID() + puertoInicial -- El puerto de esta tortuga sera igual a su Id + puertoInicial (ej: si su Id es 3 y puertoInicial es 30, entonces su puerto sera 33)
 local x=0
 local y=0
 local z=0
@@ -12,7 +14,6 @@ local zMax = 0
 local direccion = 0 --0 = alante,  1 = derecha, 2 = atras,  3=izquierda
 
 local estado="undefined"
-local puerto= os.getComputerID()+23000
 local modem = peripheral.find("modem")
 local alturaC --altura a la que comienza
 local puedeCojerLava=true;

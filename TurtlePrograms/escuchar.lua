@@ -1,10 +1,15 @@
+local puertoInicial = 23000 -- Numero desde el cual se empieza a repartir los puertos
+local puerto= os.getComputerID() + puertoInicial -- El puerto de esta tortuga sera igual a su Id + puertoInicial (ej: si su Id es 3 y puertoInicial es 30, entonces su puerto sera 33)
 local estado="Escuchando"
-local puerto= os.getComputerID()+23000
 local modem = peripheral.find("modem")
 local proximoPrograma
 local parametros = {}
 modem.open(puerto)
 local encendido = true
+print(" --- Escuchar ACTIVO ---")
+print(" ID = ".. os.getComputerID())
+print(" puertoInicial = ".. puertoInicial)
+print()
 while encendido do
     
     local event, side, channel, replyChannel, message, distance = os.pullEvent("modem_message")
