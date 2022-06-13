@@ -18,6 +18,10 @@ local modoDeFuncionamiento = 0
 local estado="undefined"
 local puerto= os.getComputerID() + puertoInicial -- El puerto de esta tortuga sera igual a su Id + puertoInicial (ej: si su Id es 3 y puertoInicial es 30, entonces su puerto sera 33)
 local modem = peripheral.find("modem")
+print("--- Cavar4 ---")
+print("Made by XZtotal")
+print("--------------")
+print("")
 if not largo then
     term.write("Largura ? : ")
     largo =  read()

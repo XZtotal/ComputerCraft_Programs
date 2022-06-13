@@ -21,6 +21,10 @@ local idControl = {1,2,3}
 local modoDeFuncionamiento = 0 -- normal=0 , preceso de apagado=1, apagar=2
 local capasAcabadas = 0 --capas "y" ya cavadas
 local modoDeCavado = 0 --0 = bloques de enfrente, 1 = enfrente y arriba, 2=arriba abajo y enfrente, -1 = enfrente y abajo, -2=arriba abajo y enfrente
+print("--- Lava2 ---")
+print("Made by XZtotal")
+print("-------------")
+print("")
 if not largo then
     term.write("Largura ? : ")
     largo =  read()

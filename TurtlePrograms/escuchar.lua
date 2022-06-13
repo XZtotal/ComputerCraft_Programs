@@ -6,7 +6,11 @@ local proximoPrograma
 local parametros = {}
 modem.open(puerto)
 local encendido = true
-print(" --- Escuchar ACTIVO ---")
+
+print("--- Escuchar ---")
+print("Made by XZtotal <3")
+print("----------------")
+print()
 print(" ID = ".. os.getComputerID())
 print(" puertoInicial = ".. puertoInicial)
 print()

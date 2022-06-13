@@ -20,6 +20,11 @@ local modoDeCavado = 0 --0 = bloques de enfrente, 1 = enfrente y arriba, 2=arrib
 local puedeConstruir = true
 local estado="undefined"
 
+print("--- Suelificar2 ---")
+print("Made by XZtotal")
+print("-------------------")
+print("")
+
 local modem = peripheral.find("modem")
 local modoDeFuncionamiento = 0
 
