@@ -1,4 +1,5 @@
 ---@diagnostic disable: deprecated, lowercase-global
+--Made by XZtotal <3
 local puertoInicial = 23000 -- Numero desde el cual se empieza a repartir los puertos
 local puerto= os.getComputerID() + puertoInicial -- El puerto de esta dispositivo sera igual a su Id + puertoInicial (ej: si su Id es 3 y puertoInicial es 30, entonces su puerto sera 33)
 local  anchuraPantalla, alturaPantalla = term.getSize()
