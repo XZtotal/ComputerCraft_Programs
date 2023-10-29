@@ -34,6 +34,7 @@ Cuando lo ejecutemos, nos preguntara 3 cosas:
 -	**Largura** -> aquí introduciremos cuantos bloques de largo quieres que cave, incluyendo en el que está.
 -	**Anchura** -> aquí introduciremos cuantos bloques de ancho quieres que cave, incluyendo en el que está. Si el valor es positivo, lo hará hacia la derecha, si el valor es negativo, lo hará a la izquierda.
 -	**Altura** -> aquí introduciremos cuantos bloques de altura quieres que cave. Si el valor es positivo, lo hará hacia arriba, si el valor es negativo, lo hará a hacia abajo.
+  
 En las dos primeras casillas del inventario de la tortuga se puede poner combustible, así, cuando necesite, ella se rellena sola. Aunque es recomendable rellenarla antes de ejecutar el programa, ya que el auto relleno, cuando detecta que el fuel es menor a 100, intentara rellenarse todo el tiempo, provocando que valla más lento.
 Si la tortuga se queda sin fuel, y no le queda combustible en el inventario, automáticamente finalizara el programa.
 
